@@ -1,6 +1,40 @@
 /* This is a CSS coment */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Targets the body tag <body> */
 body {
     background-color: #f72222;
+    font-family: "BBH Sans Bogle", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "BBH Sans Bogle", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+section {
+    background-color: black;
+    margin: 5em;
+    padding: 2em;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffff;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 1em;
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffff;
+    text-decoration: none;
 }
