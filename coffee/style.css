@@ -2,9 +2,15 @@
 
 :root {
     --primary: #4b2d1e;
+    --primary-tint: #875a44;
+    --primary-shade: #351a0d;
+
     --dark: #362d2a;
     --light: #ffff;
-    --muted: #f8f6f5;
+    
+    --muted: #e8e6e5;
+    --muted-tint: #f8f6f5;
+    --muted-shade: #d8d6d5;
 
     --font-normal: Roboto, Arial, sans-serif;
     --font-heading: 'Noto Serif', serif;
@@ -42,6 +48,34 @@ p {
     cursor: pointer;
 }
 
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--light);
+}
+.btn-primary:hover{
+    background-color: var(--primary-tint);
+}
+.btn-primary:active {
+    background-color: var(--primary-shade);
+}
+
+.btn-secondary {
+    background-color: var(--muted);
+    color: var(--light);
+}
+.btn-secondary:hover {
+    background-color: var(--muted-tint);
+}
+.btn-secondary:active {
+background-color: var(--muted-shade);
+}
+.link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.link {
+    background-color: var(--primary-tint);
+}
 
 /************************SWATCHES**************************/
 .bg-primary {background-color: var(--primary); }
