@@ -22,6 +22,7 @@
 }
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -87,6 +88,18 @@ background-color: var(--muted-shade);
 .text-dark {color: #362d2a;}
 .text-light {color: #ffff;}
 .text-muted {color: #f8f6f5;}
+
+/************************COMPONENTS**************************/
+.product-image img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+
+    object-fit: cover;
+
+    border: 40px solid var(--light);
+    border-radius: var(--space-2);
+}
+
 
 /************************LAYOUT**************************/
 .d-flex { display: flex; }
